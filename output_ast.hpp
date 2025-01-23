@@ -1,12 +1,12 @@
-#ifndef OUTPUT_HPP
-#define OUTPUT_HPP
+#ifndef OUTPUTAST_HPP
+#define OUTPUTAST_HPP
 
 #include <vector>
 #include <string>
 #include "visitor.hpp"
 #include "nodes.hpp"
 
-namespace output {
+namespace output_ast {
     /* Error handling functions */
 
     void errorLex(int lineno);

@@ -1,6 +1,6 @@
 #include "output.hpp"
 #include "nodes.hpp"
-#include "output_ast.cpp"
+#include "output_ast.hpp"
 #include "semantic.hpp"
 #include <iostream>
 // Extern from the bison-generated parser
@@ -13,7 +13,7 @@ int main() {
     yyparse();
 
     // Print the AST using the PrintVisitor
-    output::PrintVisitor printVisitor;
+    output_ast::PrintVisitor printVisitor;
     program->accept(printVisitor);
 
     // Semantic analysis
