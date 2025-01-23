@@ -7,5 +7,5 @@ printvisitor is designed to print the ast
 printsemantic is designed to print the scopes
 
 if you enter input file that isnt allowed it will tell you where the error is (for semantic errors you must run printsemantic)
-
+its still isnt fully like cpp, if you want output its with printi(int) or print(string) for now
 designed for linux interface but i think should work in windows as well
